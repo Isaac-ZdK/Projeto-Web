@@ -1,0 +1,455 @@
+body{  
+
+background-color: #FFFAFC;
+
+}
+
+.inicio{
+    
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-right: 60px;
+
+    display: flex;             
+    align-items: center;        
+    justify-content: space-between;
+}
+.conteudo-texto{
+    flex: 1;
+    max-width: 650px;
+
+}
+img{
+    width: 200px;
+
+}
+.mulher-img{
+    flex: 1;   
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+    
+
+}
+
+.mulher {
+    width: 750px;
+    position: relative;
+    bottom: -3px;
+    
+
+}
+
+.inicio h1{
+    font-family: "Libre Franklin", sans-serif;
+    color: #BC5E00;
+    font-size: 64px;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    margin-top: 0;
+
+}
+
+.destaque   {
+    color: #A40251;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 700;
+
+}
+.texto-sec{ 
+    font-family: "Libre Franklin", sans-serif;
+    color: #A40251;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 1.25;
+    margin-bottom: 30px;
+
+}
+
+.metodo{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: #565656;
+}
+
+.contato{
+  font-family: 'Libre Franklin', sans-serif;
+  background-color: #b85c00;
+  color: white;
+  font-weight: 700;
+  border: none;
+  padding: 18px 28px;
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.icone{
+   background-color: #c40063;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+.contato:hover{
+
+ transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+
+
+}
+
+.logo-branca{
+    height: 90px;
+    background-color: #BC5E00;
+    background-image: url(svg\ logo\ branca.svg);
+    background-repeat: repeat-x;
+    background-size: 140px auto;
+    background-position: 6px center;
+
+}
+
+.container2{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 80px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+
+}
+
+.imagem-h{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.homem{
+    width: 570px; 
+    max-width: 700px;
+
+}
+
+.pergunta{
+    font-family: 'Libre Franklin', sans-serif;
+    width: 700px;
+    color: #A40251;
+    font-size: 50px;
+
+}
+.resp{
+    font-family: 'Libre Franklin', sans-serif;
+    color: #565656;
+    font-size: 30px;
+    line-height: 1.55;
+    text-align: left;
+    font-weight: 300px;
+}
+.resp2{
+    font-family: 'Libre Franklin', sans-serif;
+    color: #565656;
+    font-size: 30px;   
+    line-height: 1.55;
+    text-align: left;
+    font-weight: 300;
+
+
+}
+
+.part2{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
+    
+
+
+
+}
+
+.text-esq{
+    flex: 1;
+    max-width: 700px;
+
+
+}
+
+
+.proposta{
+
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 50px;
+    text-align: left;
+    color: #b85c00;
+    line-height: 1.1;
+    margin: 0 0 30px 0;
+
+}
+
+.prop2{
+
+font-family: 'Libre Franklin', sans-serif;
+font-size: 30px;
+width: 570px;
+text-align: left;
+color: #565656;
+line-height: 1.55;
+margin: 0;
+font-weight: 500;
+
+}
+
+.beneficio{
+
+flex: 1;
+list-style: none;
+padding: 0;
+margin: 30px 0 0 0;
+
+display: flex;
+flex-direction: column;
+gap: 40px;
+
+
+
+}
+
+.Lista-benef{
+display: flex;
+align-items: center;
+gap: 18px;
+
+font-family: 'Libre Franklin', sans-serif;
+color: #565656;
+font-size: 32px;
+line-height: 2.89;
+
+    
+}
+
+.x{
+    color: #FFFAFC;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #A40251;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
+
+}
+@media (max-width: 900px){
+
+.part2{
+
+flex-direction: column;
+gap: 40px;
+
+}
+.beneficio {
+
+
+    margin-top: 0;
+}
+
+
+}
+.titulo{
+
+    font-size: 50px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #b85c00;
+    font-weight: 700px;
+    text-align: center;
+
+}
+
+.publico{
+  max-width: 1150px;            
+  margin: 80px auto;
+  background-color: #e9b2ca;
+  padding: 100px 80px 70px;    
+  border-radius: 120px;         
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  min-height: 660px;
+      
+}
+.publico p{
+
+    margin: 0;
+    max-width: 420px;
+
+
+}
+
+
+.para-quem{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 180px;         
+  row-gap: 120px;              
+  
+  flex: 1;
+}
+
+.frase-fim{
+  text-align: center;
+  margin: 70px auto 0;
+
+
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #BC5E00;
+  line-height: 1.2;
+
+  white-space: nowrap;  
+}
+
+
+.item-publico{
+    display: flex;
+    align-items: flex-start;
+    gap: 22px;
+
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 36px;   
+    color: #565656;
+    line-height: 1.2;
+    font-weight: 700;
+
+}
+
+.check{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin-top: 6px;
+    flex: 0 0 40px;
+
+}
+
+.item-publico img,
+.item-publico p{
+    margin: 0;
+    max-width: 430px;
+
+
+}
+
+.form{
+
+    background-color: #b85c00;
+    color: #FFFAFC;
+    
+
+    max-width: 1100px;
+
+    padding: 10px 40px;
+    
+    border-top-left-radius: 120px;
+    border-bottom-left-radius: 0px;
+
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 120px;
+
+    text-align: center;
+
+    margin: 30px auto;
+
+
+}
+
+.form2{
+
+    background-color: #b85c00;
+    color: #FFFAFC;
+    
+
+    max-width: 1100px;
+
+    padding: 10px 40px;
+    
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 120px;
+
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 0px;
+
+    text-align: center;
+
+    margin: 25px auto;
+
+
+}
+
+.lista-func{
+    padding: 0;
+    margin: 0;
+    counter-reset: passo;
+
+
+}
+
+.lista-func li{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 6px 0;
+    font-size: 34px;
+    font-weight: 700px;
+    line-height: 1.1;
+
+}
+.lista-func p{
+
+    margin: 0;
+    font-size: 34px;
+    font-weight: 500px;
+    line-height: 1.2;
+}
+
+.aula-titulo{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 800px;
+    font-size: 42px;
+    text-align: center;
+    color:#A40251;
+
+}
+.titulo-func{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+}
+
+.form p{
+    font-family: 'Libre Franklin', sans-serif;
+}
+.form2 p{
+    font-family: 'Libre Franklin', sans-serif;
+}
