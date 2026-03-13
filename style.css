@@ -1,5 +1,5 @@
 body{  
-
+    margin: 0;
 background-color: #FFFAFC;
 
 }
@@ -452,4 +452,216 @@ gap: 40px;
 }
 .form2 p{
     font-family: 'Libre Franklin', sans-serif;
+}
+
+.diferenciais {
+    max-width: 1100px;
+    margin: 120px auto;
+    position: relative;
+    text-align: center;
+}
+.titulo-diferenciais{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #BC5E00;
+    margin: 0 0 80px 0;
+
+}
+
+.lista-diferenciais{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 140px;
+    row-gap: 140px;
+
+}
+
+.item-diferencial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.titulo-diferencial{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.35;
+    margin: 0;
+    max-width: 430px;
+
+}
+.texto-diferencial{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #000;
+    line-height: 1.35;
+    margin: 0;
+    max-width: 550px;
+}
+
+
+.diferenciais::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top:    150px;
+    bottom: 0;
+    width: 10px;   
+    background-color: #A40251;
+    border-radius: 99px;
+    transform: translateX(-50%);
+}
+
+.final{
+    max-width: 1220px;
+    margin: 80px auto;
+    padding: 35px 60px;
+
+    background-color: #d8ba9f;
+    border-radius: 40px;
+
+    display: flex;
+    align-items: center;
+    
+    gap: 55px;
+
+}
+
+.caixa-fim{
+    flex: 1;
+    text-align: center;
+    margin-right: 60px;
+
+}
+
+.logo-faixa{
+    width: 210px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.lin1{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 36px;
+    color:  #A40251;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.05;
+}
+.lin2{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    color: #BC5E00;
+    margin: 2px 0 0 0;
+    line-height: 1.05;
+}
+
+.fim{
+    max-width: 900px;
+    margin: 140px auto;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.texto-fim{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 40px;
+    margin: 0;
+
+}
+
+.texto-fim2{
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 6px 0 30px 0;
+
+}
+
+.texto-fim3{
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 24px;
+    color: #333;
+    max-width: 520px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.duvida{
+    background-color: #BC5E00;
+    color: white;
+
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 18px 36px;
+    border-radius: 50px;
+    border: none;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+
+    cursor: pointer;
+    
+    transition: transform 0.25s ease;
+    
+
+}
+
+.duvida:hover{
+    transform: scale(1.06);
+
+}
+
+.whatsapp-icon{
+    width: 60px;
+    margin-left: 18px;
+
+}
+
+.açoes{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.seta{
+    max-width: 50px;
+
+}
+
+.rodape-topo{
+    max-width: 1200px;
+    margin: 120px auto 60px auto;
+
+}
+
+.rodape{
+    width: 100%;
+    background-color: #BC5E00;
+    color: white;
+
+    text-align: center;
+
+    padding: 5px 0;
+
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18px;
+    font-weight: 520;
 }
